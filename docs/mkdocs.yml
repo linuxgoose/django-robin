@@ -1,19 +1,13 @@
-site_name: Django Ninja
-site_description: Django Ninja - Django REST framework with high performance, easy to learn, fast to code.
-site_url: https://django-ninja.dev
-repo_name: vitalik/django-ninja
-repo_url: https://github.com/vitalik/django-ninja
+site_name: Django Robin
+site_description: Django Robin - Django REST framework with high performance, easy to learn, fast to code.
+site_url: https://linuxgoose.github.io/django-robin/
+repo_name: linuxgoose/django-robin
+repo_url: https://github.com/linuxgoose/django-robin
 edit_uri: ""
-extra:
-  analytics:
-    provider: google
-    property: G-0E3XZ663ZR
 extra_css:
   - extra.css
 theme:
   name: material
-  options:
-    link_titles: true
   palette:
     - media: "(prefers-color-scheme)"
       primary: green
@@ -43,6 +37,7 @@ theme:
     repo: fontawesome/brands/github-alt
 nav:
   - Intro: index.md
+  - differences.md
   - motivation.md
   - Tutorial:
       - "First Steps": tutorial/index.md
@@ -107,6 +102,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
+          paths: [..]
           setup_commands:
             - from django.conf import settings
             - settings.configure()
