@@ -15,10 +15,10 @@
 </p>
 
 
-![Test](https://github.com/vitalik/django-ninja/actions/workflows/test_full.yml/badge.svg)
-![Coverage](https://img.shields.io/codecov/c/github/vitalik/django-ninja)
-[![PyPI version](https://badge.fury.io/py/django-ninja.svg)](https://badge.fury.io/py/django-ninja)
-[![Downloads](https://static.pepy.tech/personalized-badge/django-ninja?period=month&units=international_system&left_color=black&right_color=brightgreen&left_text=downloads/month)](https://pepy.tech/project/django-ninja)
+![Test](https://github.com/linuxgoose/django-robin/actions/workflows/test.yml/badge.svg)
+![Coverage](https://img.shields.io/codecov/c/github/linuxgoose/django-robin)
+[![PyPI version](https://badge.fury.io/py/django-robin.svg)](https://badge.fury.io/py/django-robin)
+[![Downloads](https://static.pepy.tech/personalized-badge/django-robin?period=month&units=international_system&left_color=black&right_color=brightgreen&left_text=downloads/month)](https://pepy.tech/project/django-robin)
 
 # Django Robin - Fast Django REST Framework
 
@@ -100,7 +100,5 @@ You will see the automatic interactive API documentation (provided by <a href="h
 
 ## What next?
 
- - Read the full documentation here - https://django-ninja.dev
+ - Read the full documentation here - https://linuxgoose.github.io/django-robin/
  - To support this project, please give star it on Github. ![github star](docs/docs/img/github-star.png)
- - Share it [via Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Django%20Ninja%20-%20Fast%20Django%20REST%20Framework%20-%20https%3A%2F%2Fdjango-ninja.dev)
- - If you already using django-ninja, please share your feedback to ppr.vitaly@gmail.com
