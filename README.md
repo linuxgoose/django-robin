@@ -7,7 +7,9 @@
 
 
 
-![Django Robin Logo](docs/django-robin-t.png)
+<p align="center">
+    <img src="docs/django-robin-t.png" alt="Django Robin Logo" width="200">
+</p>
 <p align="center">
     <em>Fast to learn, fast to code, fast to run</em>
 </p>
