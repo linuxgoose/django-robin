@@ -1,9 +1,9 @@
 # Motivation
 
 !!! quote
-    **Django Ninja** looks basically the same as **FastAPI**, so why not just use FastAPI?
+    **Django Robin** looks basically the same as **FastAPI**, so why not just use FastAPI?
 
-Indeed, **Django Ninja** is heavily inspired by <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> (developed by <a href="https://github.com/tiangolo" target="_blank">Sebastián Ramírez</a>)
+Indeed, **Django Robin** is heavily inspired by <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI</a> (developed by <a href="https://github.com/tiangolo" target="_blank">Sebastián Ramírez</a>)
 
 That said, there are few issues when it comes to getting FastAPI and Django to work together properly:
 
@@ -44,19 +44,19 @@ def read_user(
 
 3) Since the word `model` in Django is "reserved" for use by the ORM, it becomes very confusing when you mix the Django ORM with Pydantic/FastAPI model naming conventions. 
 
-### Django Ninja
+### Django Robin
 
-Django Ninja addresses all those issues, and integrates very well with Django (ORM, urls, views, auth and more)
+Django Robin addresses all those issues, and integrates very well with Django (ORM, urls, views, auth and more)
 
-Working at [Code-on a Django webdesign webedevelopment studio](https://code-on.be/) I get all sorts of challenges and to solve these I started Django-Ninja in 2020.
+The original author of Django Ninja was working at [Code-on a Django webdesign webedevelopment studio](https://code-on.be/) and gott all sorts of challenges and to solve these they started Django-Ninja in 2020.
 
-Note: **Django Ninja is a production ready project** - my estimation is at this time already 100+ companies using it in production and 500 new developers joining every month. 
+Note: **Django Robin is a production ready project** - my estimation is at this time already 100+ companies using it in production and 500 new developers joining every month. 
 
 Some companies are already looking for developers with django ninja experience.
 
 #### Main Features
 
-1) Since you can have multiple Django Ninja API instances - you can run [multiple API versions](guides/versioning.md) inside one Django project.
+1) Since you can have multiple Django Robin API instances - you can run [multiple API versions](guides/versioning.md) inside one Django project.
 
 ```python
 api_v1 = NinjaAPI(version='1.0', auth=token_auth)
@@ -75,7 +75,7 @@ urlpatterns = [
 ]
 ```
 
-2) The Django Ninja 'Schema' class is integrated with the ORM, so you can [serialize querysets](guides/response/index.md#returning-querysets) or ORM objects:
+2) The Django Robin 'Schema' class is integrated with the ORM, so you can [serialize querysets](guides/response/index.md#returning-querysets) or ORM objects:
 
 ```python
 @api.get("/tasks", response=List[TaskSchema])
@@ -90,4 +90,4 @@ def tasks_details(request):
 ```
 3) [Create Schema's from Django Models](guides/response/django-pydantic.md).
 
-4) Instead of dependency arguments, **Django Ninja** uses `request` instance attributes (in the same way as regular Django views) - more detail at [Authentication](guides/authentication.md).
+4) Instead of dependency arguments, **Django Robin** uses `request` instance attributes (in the same way as regular Django views) - more detail at [Authentication](guides/authentication.md).

@@ -1,13 +1,15 @@
-# Django Ninja - Fast Django REST Framework
+# Django Robin - Fast Django REST Framework
 
 <div style="background-color: black; color: red; font-size: 16px; padding: 8px;">
- RUSSIA INVADED UKRAINE - <a href="https://github.com/vitalik/django-ninja/issues/383">Please read</a>
+ RUSSIA INVADED UKRAINE - <a href="https://github.com/vitalik/django-ninja/issues/383">Please read (from the original author of Django Ninja)</a>
 </div>
 
 
-![Django Ninja](img/hero.png)
+<p align="center">
+    <img src="img/django-robin-t.png" alt="Django Robin Logo" width="200">
+</p>
 
-Django Ninja is a web framework for building APIs with Django and Python 3.6+ type hints.
+Django Robin is a web framework for building APIs with Django and Python 3.6+ type hints.
 
 Key features:
 
@@ -20,12 +22,12 @@ Key features:
 
 <a href="https://github.com/vitalik/django-ninja-benchmarks" target="_blank">Benchmarks</a>:
 
-![Django Ninja REST Framework](img/benchmark.png)
+![Django Robin REST Framework](img/benchmark.png)
 
 ## Installation
 
 ```
-pip install django-ninja
+pip install django-robin
 ```
 
 ## Quick Example
@@ -46,7 +48,7 @@ Now, run it as usual:
 ./manage.py runserver
 ```
 
-Note: You don't have to add Django Ninja to your installed apps for it to work.
+Note: You don't have to add Django Robin to your installed apps for it to work.
 
 ## Check it
 

@@ -2,13 +2,13 @@
 
 
 
-<a href="https://github.com/vitalik/django-ninja/issues/383">^ Please read ^</a>
+<a href="https://github.com/vitalik/django-ninja/issues/383">^ Please read ^ (from the original author of Django Ninja)</a>
 
 
 
 
 <p align="center">
-  <a href="https://django-ninja.dev/"><img src="https://django-ninja.dev/img/logo-big.png"></a>
+    <img src="docs/django-robin-t.png" alt="Django Robin Logo" width="200">
 </p>
 <p align="center">
     <em>Fast to learn, fast to code, fast to run</em>
@@ -20,9 +20,9 @@
 [![PyPI version](https://badge.fury.io/py/django-ninja.svg)](https://badge.fury.io/py/django-ninja)
 [![Downloads](https://static.pepy.tech/personalized-badge/django-ninja?period=month&units=international_system&left_color=black&right_color=brightgreen&left_text=downloads/month)](https://pepy.tech/project/django-ninja)
 
-# Django Ninja - Fast Django REST Framework
+# Django Robin - Fast Django REST Framework
 
-**Django Ninja** is a web framework for building APIs with **Django** and Python 3.6+ **type hints**.
+**Django Robin** is a web framework for building APIs with **Django** and Python 3.6+ **type hints**.
 
 
  **Key features:**
@@ -32,11 +32,11 @@
   - **Fast to code**: Type hints and automatic docs lets you focus only on business logic.
   - **Standards-based**: Based on the open standards for APIs: **OpenAPI** (previously known as Swagger) and **JSON Schema**.
   - **Django friendly**: (obviously) has good integration with the Django core and ORM.
-  - **Production ready**: Used by multiple companies on live projects (If you use django-ninja and would like to publish your feedback, please email ppr.vitaly@gmail.com).
+  - **Production ready**: Used by multiple companies on live projects.
 
 
 
-![Django Ninja REST Framework](docs/docs/img/benchmark.png)
+![Django Robin REST Framework](docs/docs/img/benchmark.png)
 
 **Documentation**: https://django-ninja.dev
 
