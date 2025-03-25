@@ -1,4 +1,4 @@
-"""Django Ninja - Fast Django REST framework"""
+"""Django Robin - Fast Django REST framework"""
 
 __version__ = "1.4.0b2"
 
