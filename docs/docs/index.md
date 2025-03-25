@@ -6,7 +6,7 @@
 
 
 <p align="center">
-    <img src="docs/django-robin-t.png" alt="Django Robin Logo" width="200">
+    <img src="img/django-robin-t.png" alt="Django Robin Logo" width="200">
 </p>
 
 Django Robin is a web framework for building APIs with Django and Python 3.6+ type hints.
