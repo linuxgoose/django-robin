@@ -1,11 +1,13 @@
-# Django Ninja - Fast Django REST Framework
+# Django Robin - Fast Django REST Framework
 
 <div style="background-color: black; color: red; font-size: 16px; padding: 8px;">
  RUSSIA INVADED UKRAINE - <a href="https://github.com/vitalik/django-ninja/issues/383">Please read (from the original author of Django Ninja)</a>
 </div>
 
 
-![Django Robin](img/django-robin.png)
+<p align="center">
+    <img src="docs/django-robin-t.png" alt="Django Robin Logo" width="200">
+</p>
 
 Django Robin is a web framework for building APIs with Django and Python 3.6+ type hints.
 
