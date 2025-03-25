@@ -12,6 +12,8 @@ extra_css:
   - extra.css
 theme:
   name: material
+  options:
+    link_titles: true
   palette:
     - media: "(prefers-color-scheme)"
       primary: green
