@@ -298,11 +298,13 @@ def test_relational():
         "type": "object",
         "properties": {
             "id": {"title": "ID", "type": "integer"},
-            "onetoonefield": pydantic_ref_fix({
-                "title": "Onetoonefield",
-                "description": "",
-                "$ref": "#/$defs/Related",
-            }),
+            "onetoonefield": pydantic_ref_fix(
+                {
+                    "title": "Onetoonefield",
+                    "description": "",
+                    "$ref": "#/$defs/Related",
+                }
+            ),
             "foreignkey": {
                 "title": "Foreignkey",
                 "allOf": [{"$ref": "#/$defs/Related"}],
@@ -584,8 +586,9 @@ def test_optional_fields():
     Schema = create_schema(
         SomeReqFieldModel, optional_fields=["some_field", "other_field", "optional"]
     )
-    #assert Schema.json_schema().get("required") is None    
+    # assert Schema.json_schema().get("required") is None
     assert Schema.json_schema()["required"] == ["id"]
+
 
 def test_optional_primary_key():
     class ModelWithOptionalPK(models.Model):
@@ -593,10 +596,10 @@ def test_optional_primary_key():
         name = models.CharField()
 
         class Meta:
-           app_label = "tests"
- 
+            app_label = "tests"
+
     Schema = create_schema(ModelWithOptionalPK)
- 
+
     assert Schema.json_schema() == {
         "properties": {
             "id": {"anyOf": [{"type": "integer"}, {"type": "null"}], "title": "Id"},
