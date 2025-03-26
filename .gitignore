@@ -1,5 +1,6 @@
 *.pyc
 .venv*
+.mvenv*
 .vscode
 .mypy_cache
 .coverage
@@ -14,3 +15,4 @@ docs/site
 .DS_Store
 .idea
 .python-version
+/myenv
